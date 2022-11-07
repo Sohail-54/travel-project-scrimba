@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-h1{
+    margin-top: 1px;
+}
+.dis-flex{
+    display: flex;
+    align-items: center;
+
+}
+.navbar{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55A5A;
+}
+.head-title{
+    color: white;
+}
+.card{
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 250px;
+    width: 685px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.card-img{
+    width: 170px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.marker{
+    width: 10px;
+}
+.location{
+    padding-left: 2px;
+    letter-spacing: 1px;
+}
+.link{
+    padding-left: 10px;
+}
+.card-text{
+    padding-left: 19px;
+}
+/* .card-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
